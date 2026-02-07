@@ -31,7 +31,7 @@
 ### 1. 로컬 환경 설치
 저장소를 클론한 후 필요한 패키지를 설치합니다.
 ```bash
-git clone [https://github.com/bobospark/comment_maker.git](https://github.com/bobospark/comment_maker.git)
+git clone https://github.com/bobospark/comment_maker.git
 cd comment_maker
 pip install -r requirements.txt
 ```
@@ -41,7 +41,7 @@ streamlit run comment_maker.py
 ```
 
 3. API Key 설정
-* **Google AI Studio[https://aistudio.google.com/prompts/new_chat]에서 Gemini API Key를 발급받으세요.
+* **[Google AI Studio](https://aistudio.google.com/prompts/new_chat) 에서 Gemini API Key를 발급받으세요.
 * **앱의 사이드바에서 키를 입력하거나, 배포 환경의 Secrets에 설정하세요.
 
 4. ⚠️ 주의사항 (Disclaimer)
