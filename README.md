@@ -40,7 +40,9 @@ pip install -r requirements.txt
 streamlit run comment_maker.py
 ```
 
-3. API Key 설
+3. API Key 설정
+* **Google AI Studio[https://aistudio.google.com/prompts/new_chat]에서 Gemini API Key를 발급받으세요.
+* **앱의 사이드바에서 키를 입력하거나, 배포 환경의 Secrets에 설정하세요.
 
 4. ⚠️ 주의사항 (Disclaimer)
 * ** 본 도구는 소통의 보조 수단입니다. 네이버 운영 정책을 준수하기 위해 생성된 결과물을 확인 후 수동으로 등록하는 것을 권장합니다.
